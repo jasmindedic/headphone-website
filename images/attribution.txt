@@ -1,0 +1,7 @@
+headphone.png muss im Impressum wie folgt gekennzeichnet werden:
+schwarze textur PNG Entworfen von Techchennai aus <a href="https://pngtree.com/">Pngtree.com</a>
+
+Folgender Satz muss in den Footer:
+Logos stammen u. A.von <a href="https://icons8.com">https://icons8.com</a>
+
+Alle anderen Grafiken durch (Auch kommerziell ohne Attribution genutzt werden)
