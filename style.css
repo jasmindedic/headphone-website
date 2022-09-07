@@ -160,6 +160,7 @@ html, body {
 .features-headliner h2{
   padding-bottom: 4rem;
   font-size: 2.5rem;
+  font-family: "Rubik", sans-serif;
 }
 
 .feature-list {
@@ -168,6 +169,7 @@ html, body {
   width: 100%;
   text-align: center;
   padding-bottom: 4rem;
+  font-family: "Pt sans", sans-serif;
 }
 
 /* Section description */
@@ -182,6 +184,7 @@ html, body {
 }
 
 .wireless-container {
+  font-family: "Rubik", sans-serif;
   margin-top: 1rem;
   margin-bottom: 2.2rem;
   display: flex;
@@ -190,6 +193,7 @@ html, body {
 }
 
 .modern-container {
+  font-family: "Rubik", sans-serif;
   margin-bottom: 2.2rem;
   display: flex;
   flex-direction: row-reverse;
@@ -229,6 +233,78 @@ html, body {
 
 .modern-img img{
   height: 100%;
+}
+
+/* Section Location */
+.location {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.maps {
+  width: 100%;
+}
+
+.location-headliner h2 {
+  font-family: "Rubik", sans-serif;
+  padding-top: 1.6rem;
+  padding-bottom: 3.2rem;
+  font-size: 2.4rem;
+}
+
+.location iframe {
+  width: 100%;
+  height: 400px;
+}
+
+.adress h3 {
+  font-family: "Pt sans", sans-serif;
+  padding-top: 1.8rem;
+  padding-bottom: 1.8rem;
+  font-size: 1.4rem;
+}
+
+/* Section Footer */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ff7675;
+}
+
+.footer-left {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: #fff;
+  padding-left: 5.6rem;
+  font-family: "Pt sans", sans-serif;
+}
+
+.footer-right {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-right: 4rem;
+}
+
+.social-icons {
+  display: flex;
+}
+
+.social-icons li {
+  padding-right: 1.6rem;
+  list-style-type: none;
+}
+
+.social-icons li img {
+  width: 3rem;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.social-icons li img:hover {
+  transform: scale(1.15);
 }
 
 /* Media queries */
@@ -325,6 +401,29 @@ html, body {
   
   .header-banner {
     padding-bottom: 4rem;
+  }
+
+  .location-headliner h2 {
+    text-align: center;
+  }
+
+  .adress h3 {
+    text-align: center;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
+
+  .footer-left {
+    padding-bottom: 1rem;
+    padding-left: 0rem;
+  }
+  
+  .footer-right {
+    padding-bottom: 2rem;
+    padding-right: 0rem;
+    padding-left: 1.4rem;
   }
 
 }
@@ -436,6 +535,17 @@ html, body {
     font-size: 0.75rem;
     padding-top: 0.4rem;
   }
+}
+
+@media (min-width: 1698px) {
+  
+.footer-left {
+  padding-left: 9.6rem;
+}
+
+.footer-right {
+  padding-right: 8rem;
+}
 }
 
 
