@@ -170,6 +170,66 @@ html, body {
   padding-bottom: 4rem;
 }
 
+/* Section description */
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.description img {
+  width: 21rem;
+}
+
+.wireless-container {
+  margin-top: 1rem;
+  margin-bottom: 2.2rem;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.03);
+  padding-right: 6rem;
+}
+
+.modern-container {
+  margin-bottom: 2.2rem;
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: rgba(0, 0, 0, 0.03);
+  padding-left: 6.1rem;
+}
+
+.wireless-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  padding-left: 6rem;
+}
+
+.wireless-headliner {
+  font-size: 1.8rem;
+}
+
+.modern-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  padding-right: 6.1rem;
+}
+
+.modern-headliner {
+  font-size: 1.8rem;
+}
+
+.wireless-img img{
+  height: 100%;
+}
+
+.modern-img img{
+  height: 100%;
+}
 
 /* Media queries */
 @media (max-width: 770px) {
@@ -294,6 +354,88 @@ html, body {
     padding: 0.9rem 1.7rem;
   }
 
+}
+
+/* Section Description */
+@media (min-width: 1600px) {
+  .wireless-container {
+    padding-right: 12rem;
+  }
+  
+  .modern-container {
+    padding-left: 12.1rem;
+  }
+  
+  .wireless-text {
+    padding-left: 12rem;
+  }
+  
+  .modern-text {
+    padding-right: 12.1rem;
+  }
+}
+
+@media (max-width: 880px) {
+  .wireless-container {
+    flex-direction: column;
+    padding-right: 0;
+  }
+
+  .wireless-text {
+    padding-left: 0;
+  }
+
+  .modern-container {
+    flex-direction: column;
+    padding-left: 0;
+  }
+  .modern-text {
+    padding-right: 0;
+  }
+
+  .wireless-text {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .modern-text {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+}
+
+@media (max-width: 365px) {
+  .description img {
+    width: 16rem;
+  }
+
+  .wireless-text {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .modern-text {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .wireless-headliner {
+    font-size: 1.4rem;
+  }
+
+  .modern-headliner {
+    font-size: 1.4rem;
+  }
+
+  .wireless-desc {
+    font-size: 0.75rem;
+    padding-top: 0.4rem;
+  }
+
+  .modern-desc {
+    font-size: 0.75rem;
+    padding-top: 0.4rem;
+  }
 }
 
 
